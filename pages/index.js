@@ -13,5 +13,5 @@ export default function Home() {
 
 
 const HomeWrapper = styled.div`
-  padding: 20px;
+
 `
