@@ -8,11 +8,12 @@ const Navbar = () => {
   const router = useRouter()
   console.log('router', router)
   const path = router.pathname
+  console.log('path', path)
 
   return (
     <Nav>
-      <Link href="/" passHref><A><LinkText path={path} />Home</A></Link>
-      <Link href="/about" passHref><A><LinkText path={path} />About</A></Link>
+      <Link href="/" passHref><A><LinkText />Home</A></Link>
+      <Link href="/about" passHref><A><LinkText />About</A></Link>
     </Nav>
   )
 }
